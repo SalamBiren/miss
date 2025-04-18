@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "epaomayek";
+            src: url("EPAOMAYEK.ttf") ;
+        }
+        nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    background-color: #333;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdown-btn {
+    font-size: 50px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 40px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-btn {
+    background-color: #111;
+}
+        main{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .wareng{
+            width: 100%;
+            height:auto;
+            float: none;
+            border: 2px solid black;
+            border-right: 1px solid black;
+            padding: 50px;
+        }
+        .seireng{
+            float: none;
+            width: 100%;
+            height: auto;
+            border: 2px solid black;
+            border-left: 1px solid black;
+            padding: 50px;
+        }
+        .page1{
+            border: 1px solid black;
+            height: auto;
+            border-radius: 10px;
+            padding: 20px;
+            padding-top: none;
+        }
+        .page2{
+            border: 1px solid black;
+            height: auto;
+            border-radius: 10px;
+            padding: 20px;
+            padding-top: none;
+        }
+        h1{
+            background-color: gray;
+            font-size: 50px;
+        }
+        .person{
+            border: 1px solid black;
+            font-size: 30px;
+            padding: 5px;
+            text-align: center;
+        }
+        .warengeba{
+            padding: 5px;
+            font-size: 30px;
+        }
+        .seirengeba{
+            padding: 5px;
+            font-size: 30px;
+        }
+        img{
+            margin-top: 20px;
+        }
+        footer{
+            background-color: rgb(235, 215, 161);
+            color: black;
+            font-size: 30px;
+            font-family:'Courier New', Courier, monospace;
+            padding: 40px;
+           color: rgb(0, 0, 0);
+            padding-left: 50px;
+            border: 2px solid black;
+            border-top: none;
+        }
+        .img{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <font face="epaomayek">
+    <nav>
+    <ul>
+        <li class="dropdown">
+            <a href="#" class="dropdown-btn">wareH</a>
+            <div class="dropdown-content">
+                <a href="#tapta gi wari">tPtagi wari</a>
+            </div>
+        </li>
+        <li class="dropdown" id="se">
+            <a href="#" class="dropdown-btn">sEreH</a>
+            <div class="dropdown-content">
+                <a href="#siroi lily">siroI lili</a>
+                <a href="#sangai">sZaI</a>
+            </div>
+        </li>
+    </ul>
+    </nav><br><br>
+    <main>
+        <div class="wareng">
+            <div class="page1" id="tapta gi wari">
+                <center><h1>tPtagi wari</h1></center>
+                <div class="person">
+                  taNja, UpaI, KqtoP toQp, frq kaUToQp, yacL cNb,
+                  Kurji laQp, UkroH
+                </div>
+                <div class="warengeba">
+                    <li>&nbsp;&nbsp;&nbsp;kEjaU Am 'Zsidi sgoL Am cage' haIdun InaQKPb Amgi sgoLsqd
+                        AhiHd cqlQI| kE Adun sgoLsqd heQ cqlQp taNja Adud ImuH Adugi
+                        AZaH Am kNn kPlQlMmi| AZaH Adu poKYlg TeMlMmi|</li>
+                        <li>&nbsp;&nbsp;&nbsp;'tuMmo tuMmo, huM huM hu-M-hu-M'| AsuMn hNn hNn TeMbd AZaH
+                        Adu kPp toQkide|</li>
+                        <li><h4>tMbibgi paNdM: AZaHsiH</h4></li>
+                        <li>(1) kE Adun sgoL cage haIn laQp mtMd AZaH mman mca krMn
+                        TeMKibge haIndu haI|</li>
+                        <li>(2) kEn tPtabu krigi kiribno haI|</li>
+                        <li>(3) huranbn krMn kE toHdun cYKibge haI|</li>
+                        <li>(4) kEn lMhuI krMn caKibge haI|</li>
+                        <li>(5) tMtagi wari Asi sMlPn li|</li>
+                        <li>(6) warigi wahEsiH Asi AruM-AyaH cuMn paI|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adudgidi-mma Adun,</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Ae! kE laQAe nhE| tu-tu kE laQAe! kE laQAe!</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tuMmo-tuMmo 'tuM-mo!' haIn AmuQ TeMlMmi|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE Adun,"hi! AEbu UrmLle" haIdun sgoL mruMd lEsiNdun lEK_re|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AZaH Adu kPp toQt_re| mma Adu UpaI lEt_re| "haI! AZaH
+                        AkPp faI haIb tPta haIbdu laQAene,cqZsi" haIrg ImuHd p_rP
+                        p_rP heQ cqsiNKi| AZaH adu kirdun kPpdu KqtoQ heQ toQKi|
+                        Adudgi mma Adun AmuQ laUrQlMmi,"haI, tPta, hLlo-hLlo-IbuHZo
+                        kPte,IbuHZo  kPte|" Adudgidi mma mcadu tumiNn lEK_re| AduM
+                        tuMTK_re|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE Adun KLli,"AZaH Asi kE AEbudi kide| tPta haIb Adubudi
+                        kidun kPp toQK_re| magi tPta haIbdubu kyamuQ kNb furuP mcano?
+                        AEZoNdgidi heNn kNb Am AoIrMb tare|" AsuMn KLlubdgi kEdu
+                        mpuQniHd tPtabu kib hOrQle|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;taNja Adud huraNb Amsu sgoL huge haIdun sgoLsq Adud cqlQle|
+                        kEdu mtu K_yaU cuHI|  "tPpa haIbdu msi AoIb tare" kidun sgoL
+                        mrQt cqlg sgoL sadun tumiMm lePtun lEK_re|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;huraNb Adun KLli "sgoLdi mKoH AcOb fE"| Adun sgoL mKoHsiH
+                        Adu AmMbd mKuYn taP taP paIdun yeHlQI| mTq mTq yeHbd kEgi mKoH
+                        taP heQ paIruI| kE Adun sgoL sadun mKoHdu f_rq heQ kaUToQI|
+                        huraNbn KLli - "msin mKoH K_waIdgi caUb sgoL haIbdu AoIre| msi
+                        hurge|" huraNbn AmMbd kE Adud sgoL yacL cNK_re| Kurji laQK_re|</li><br>
+                        <center>
+                            <img src="Kei Thouba.png" width="550px" height="250px">
+                        </center>    
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE Adudi kidun tPtan tOribmKE Iya yaK_re| tPtan kEdu toHdun
+                        TOdoQrQle| kEdusu nuHsasor TbeY-TbeY hoMldun sgoL KoHTaHd kud_ruQ-
+                        kud_ruQ ceLlQle|</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;noH ZaNfuH ZaNfuH tOrQle| nmiYki mZaNd huraNd Adun man toHlibdu
+                        kEni haI KqlQle| paKYpn loIre|  hi ! AEn toHlibsidi kEnin! man
+                        AEbu soIdn  caKib tare, krMn naNToQsib!</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kr cYlg huraNb Adun lMbigi nakNd Uk_roH Ahob Am lEb
+                        Ure| Uk_roH Ahob Adugi mpad fL coHTrg huraNbdu Uk_roH Adud
+                        cqToQK_re | kEdusu ' tPtan AEbu TadoQpire ' KNdun hraUn hNn faUb
+                        yeHlMdn paIdun ceLlQle |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE Adun AsuM ceLlQmd lMbid lMhuI Am TeHnre |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lMhuI - ATOb , IfiH fiHn ceLlQlibsibu krigino ?</li><br>
+                        <center>
+                            <img src="kei ga lamhuiga.png" width="550px" height="300px">
+                        </center>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE - (ceLlMbdu lePlg) - 'haI, lMhuI AsoMd cYKinu , tPta
+                        lEhObni| ZsaImKE man ITQt toHdun AEbu TOrQpni | mna TadoQpirQpdgi
+                        AE hiHhObni |'</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lMhuI - 'tPta haIbdudi AEdi msQ Kqd_ri | msQ KqniHK_red !
+                        AmuQt heHUKisib |'</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE - lMhuI haIb Apqb , nTwaI maHniHbr ?</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lMhuI - "hera AtOb | man fagdguM tOrg kNn heQ ceLlQsi
+                        kOdOge |"</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;kE - "fre fre , yeHlursi | Adubu nqg AEg K_waHd TOrin puNsiNnrsi |
+                        horeL tPtan taLlQlg IbaNnigi mrQt lMjeL yaHb Adun AduM ciHdun
+                        punnb |" AsuMb TOri Amgi mtoN mtoNn mK_waH-mK_waHd puNsiNnrg
+                        tPpa yeHb laQle |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kr cYlg  kEn, "tu Aadgi Uk_roH Asid lEhObni , sw_aId lEPpsi,
+                        lMhuI |" AnimQ lePlg Uk_roHloMd yeHdun lEre |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;huraNb Adusu "kEdubu kdaI yOK_rigdge , yeHge" haIn Uk_roHdgi
+                        mZQ TiHgYtun heQ yeHlQI | lMhuIdudi Ud_ri , kEdun huraNbdubu haNn
+                        Ure | kEdun "ha ! tPta TorQle | lMhuI, ceLlsi " haIn laUrMlg haIn
+                        laUrMlg hNdun ceNK_re |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lMhuI Adudi kEguMn ceNb ZMbdi nYtbnin TOrin ceNdun pure |
+                        Kr ceLg lMhuIdu mK_waH tYtun sire |</li><br>
+                        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Kqb_rdo lMhuI , AreMbd nTwaI maHdun toQledo" haIrg kEn 
+                        lMhuI Adu caToQKi | huranbdusu Uk_roHdgi TorQlg myuM yOnb ceNKi |</li> 
+                </div>
+                <hr width="80%" align="center" color="gray" size="3px"><br><br><br><br><br>
+            </div>
+            
+        </div>
+        <div class="seireng">
+            <div class="page1" id="siroi lily">
+                <center><h1>siroI lili</h1>
+                        <img src="Siroi.png" width="300px" height="300px">
+                <div class="seirengeba">
+                <br>
+                pajindi AEZoNd<br>
+                siroI ciHd sYli haI<br>
+                siroI lili fjE haI|<br>
+                AtE mfM Amd,<br>
+                siroI lili, hOde haI,<br>
+                siroI ciHd nYtn|<br>
+                hyeH Aen caUrg,<br>
+                ImaNnb kyag,<br>
+                siroI ciHdoL kadun,<br>
+                lili yeHb cYkni|<br>
+                lili yeHb cYkni|<br>
+            </div><br><br>
+            <hr width="80%" align="center" color="gray" size="3px"><br><br><br><br><br>
+            </center>
+            </div><br><br><br>
+            <div class="page1" id="sangai">
+                <center><h1>sZaI</h1>
+                        <img src="SANGAI.png" width="300px" height="300px">
+                <div class="seirengeba">
+                <br>
+                sZaI! sZaI! sZaI Ao!<br>
+                sZaI kObi ciroHbi!<br>
+                sZaI kObi fjbi!<br>
+                min koITi Tinre;<br>
+                nqdi sid loYlMmi;<br>
+                nqdi sid lErMmi.<br>
+                fuMdi mrQ Asid<br>
+                nqgi nyuM AoIdun<br>
+                lEbsibu nuHZaIb_ro!<br>
+                lEyu lEyu sZaI Ao<br>
+                nuZaInbu lErMmu<br>
+                nOr hanO purQke|<br>
+            </div><br><br>
+            <hr width="80%" align="center" color="gray" size="3px"><br><br><br><br><br>
+            </center>
+            </div>
+            
+        </div>
+    </main>
+    </font>
+    <footer>
+        <font face="epaomayek">
+            
+                ImiH : salaM bireN mEtE<BR>
+                bi.si.Ae 4 sub semist_r<br>
+                roL nMb_r :-bi.si. 2170
+        </font>
+    </footer>
+</body>
+</html>
